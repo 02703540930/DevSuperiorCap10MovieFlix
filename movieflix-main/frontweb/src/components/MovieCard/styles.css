@@ -1,0 +1,65 @@
+.movie-card {
+  margin-bottom: 20px;
+  align-items: center;
+  width: 300px;
+  height: 322px;
+}
+
+.card-top-container {
+  text-align: center;
+  padding: 26px 0;
+}
+
+.card-top-container img {
+  width: 100%;
+}
+
+.card-bottom-container {
+  padding: 0px 18px 53px;
+}
+
+.card-bottom-container h6 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.card-bottom-container h3 {
+  font-size: 16px;
+  color: #FFC700;
+}
+
+.card-bottom-container p {
+  color: #fff;
+}
+
+@media (min-width: 576px){
+  .movie-card {
+    width: 258px;
+    height: 322px;
+  }
+}
+
+
+@media (min-width: 768px){
+  .movie-card {
+    margin-bottom: 40px;
+    width: 324px;
+    height: 364px;
+  }
+}
+
+@media (min-width: 992px){
+  .movie-card {
+    width: 436px;
+    height: 457px;
+  }
+}
+
+@media (min-width: 1200px){
+  .movie-card {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 258px;
+    height: 322px;
+  }
+}
